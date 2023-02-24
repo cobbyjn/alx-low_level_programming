@@ -11,7 +11,13 @@ int _isupper(int c)
 {
 
 	if (c == 'A' && c <= 'Z')
+	{
 		return (1);
+		_putchar('\n');
+	}
 	else
+	{
 		return (0);
+		_putchar('\n');
+	}
 }
