@@ -5,7 +5,7 @@
  *
  * @c: checks the variable
  *
- * Return: always 0
+ * Return: 1 when c is uppercase and 0 when lowercase
  */
 int _isupper(int c)
 {
